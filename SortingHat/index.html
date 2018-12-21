@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sorting Hat</title>
+  <link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>The Sorting <br>H<i class="fas fa-hat-wizard"></i>t</h1>
+  <h2>Simple Class Sorter</h2>
+  <h4>FYI: If a group is lacking students, the app will populate with 'undefined'</h4> 
+  <div id="inputs">
+    <p class="input-area">Choose your class:</p>
+      <div>
+        <select name="dropdown" id="dropdown" required>
+          <option value="" disabled selected required>--Please select your class--</option>
+          <option value="KA">Kinder A</option>
+          <option value="KB">Kinder B</option>
+          <option value="1A">First grade A</option>
+          <option value="1B">First grade B</option>
+          <option value="2A">Second grade A</option>
+          <option value="2B">Second grade B</option>
+          <option value="3A">Third grade A</option>
+          <option value="3B">Third grade B</option>
+          <option value="4A">Fourth grade A</option>
+          <option value="4B">Fourth grade B</option>
+          <option value="5A">Fifth grade A</option>
+          <option value="5B">Fifth grade B</option>
+        </select>
+      </div>
+    <br>
+    <p class="input-area">Enter group size:</p>
+    <input type="number" id="iteration" name="iteration"
+           min="1" max="15" value="2" required>
+    <br>
+  <input type="submit" id="btn" value="Sort!"></input>
+</div>
+  <div id="alumn">
+    <p> The groups will populate here</p>
+  </div>
+<footer>Developed by Cristobal Heiss  <a href="https://www.freecodecamp.org/ceheiss" target="_blank"><i class="fab fa-free-code-camp"></i></a>  <a href="https://github.com/Ceheiss" target="_blank"><i class="fab fa-github"></i></a>  <a href="https://twitter.com/cristobalheiss" target="_blank"><i class="fab fa-twitter"></i></a>  <a href="https://www.codepen.io/ceheiss" target="_blank"><i class="fab fa-codepen"></i></a></footer>
+<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
