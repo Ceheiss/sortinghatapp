@@ -1,2 +1,2 @@
 # sortinghatapp
-Sorting app to make groups
+Sorting app to make groups. Good for schools
